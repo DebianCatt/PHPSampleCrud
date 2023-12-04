@@ -1,0 +1,46 @@
+
+body{
+    color:aqua;
+    padding-left: 5px;
+    padding-top: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.849);
+    animation: frameAnimation 2s ease-out 0s forwards;
+
+}
+
+p1{
+    font-size: 20px;
+    font-family: solarpunkfont2;
+}
+p2{
+    font-size: 80px;
+    font-family: solarpunkfont;
+}
+p3{
+    font-size: 15px;
+    font-family: solarpunkfont2;
+    padding-left: 480px;
+}
+
+/*---------------------FONTS-------------------------*/
+@font-face{
+    font-family: solarpunkfont;
+    src: url(../../fonts/DelogsGoesHi-Tech.otf);
+}
+@font-face{
+    font-family: solarpunkfont2;
+    src: url(../../fonts/staravenue.ttf);
+}
+
+/*-------------------ANIMATIONS----------------------*/
+
+@keyframes frameAnimation {
+    from{
+        opacity: 0;
+        
+    }
+    to{
+        opacity: 5;
+        
+    }
+}
