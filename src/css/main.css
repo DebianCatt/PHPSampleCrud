@@ -3,13 +3,15 @@
 
 
 body{
-    background-image: url(../../images/bot-cow-qr.png);
+    background-image: url(../../images/mars-view-outerspace.png);
+    background-color: rgba(0, 0, 0, 0.274);
     overflow: hidden;
     background-repeat: no-repeat;
+    transition: background 0.5s ease;
 }
 
 .nav_hex_home{
-    background-color: aquamarine;
+    background-color: aqua;
     width: 100px;
     height: 120px;
     position:absolute;
@@ -22,7 +24,7 @@ body{
 }
 
 .nav_hex_concept{
-    background-color: rgb(131, 255, 127);
+    background-color: aqua;
     width: 100px;
     height: 120px;
     position:absolute;
@@ -35,7 +37,7 @@ body{
 }
 
 .nav_hex_register{
-    background-color: rgb(255, 210, 127);
+    background-color: aqua;
     width: 100px;
     height: 120px;
     position:absolute;
@@ -48,7 +50,7 @@ body{
 }
 
 .nav_hex_registered{
-    background-color: aquamarine;
+    background-color: aqua;
     width: 100px;
     height: 120px;
     position:absolute;
@@ -74,7 +76,7 @@ body{
 }
 */
 .nav_hex_about{
-    background-color: aquamarine;
+    background-color: aqua;
     width: 100px;
     height: 120px;
     position:absolute;
@@ -96,7 +98,11 @@ body{
     object-position: center center;
 }*/
 
-.nav_hex_home img, .nav_hex_concept img
+/*this images are just a frontcover to enable user to interact with the shapes
+so we will set them to op 0 because we don't really need to see them*/
+.nav_hex_home img, .nav_hex_concept img,
+.nav_hex_register img, .nav_hex_registered img,
+.nav_hex_about img
 {
     opacity: 0;
 }
