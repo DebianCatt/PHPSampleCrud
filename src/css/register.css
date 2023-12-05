@@ -13,10 +13,13 @@ label, button, h1{
     
 }
 
+/*---------------------FONT-------------------------*/
 @font-face{
     font-family: solarpunkfont;
     src: url(../../fonts/DelogsGoesHi-Tech.otf);
 }
+/*--------------------------------------------------*/
+
 
 .registration-box {
     background-color: rgba(0, 0, 0, 0.521);

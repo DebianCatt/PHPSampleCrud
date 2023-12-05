@@ -21,6 +21,8 @@ h2, h3 {
     color: aqua;
 }
 
+/*---------------------FONTS-------------------------*/
+
 @font-face{
     font-family: solarpunkfont;
     src: url(../../fonts/DelogsGoesHi-Tech.otf);
