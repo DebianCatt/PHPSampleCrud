@@ -1,11 +1,3 @@
-# PHPSampleCrud
+no, please, don't take this seriously. I'm just messing around.
 
----------------------------
-This repo is for my school activity on php
-creating a simple site that will perform
-a basic CRUD (create only).
-
----------------------------
-
-The Idea and concept of this site are all fiction
-for school project only.
+It's not even finished and never planned to mess with this again :D
